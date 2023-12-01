@@ -1,0 +1,60 @@
+{
+"particles": {
+    "array": [],
+    "density": 100,
+    "color": "#fff",
+    "size": {
+      "value": 2,
+      "random": false
+    },
+    "movement": {
+      "speed": 1,
+      "restless": {
+        "enabled": false,
+        "value": 10,
+        "sync": false
+      }
+    },
+    "interactivity": {
+      "on_hover": {
+        "enabled": true,
+        "action": "repulse"
+      },
+      "on_click": {
+        "enabled": true,
+        "action": "big_repulse"
+      },
+      "on_touch": {
+        "enabled": false,
+        "action": "repulse"
+      },
+      "fn_array": []
+    }
+  },
+  "image": {
+    "src": {
+      "path": "https://raw.githubusercontent.com/Celestialchips/voicenotes/main/media/quandry-logo.png",
+      "is_external": true
+    },
+    "size": {
+      "canvas_pct": 60,
+      "min_px": 100,
+      "max_px": 800
+    }
+  },
+  "interactions": {
+    "repulse": {
+      "distance": 100,
+      "strength": 200
+    },
+    "big_repulse": {
+      "distance": 300,
+      "strength": 250
+    },
+    "grab": {
+      "distance": 100,
+      "line_width": 1,
+    }
+  },
+  "disabled": false
+}
